@@ -167,11 +167,5 @@ PRODUCT_LOCALES += en_US
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/holiday/holiday-vendor.mk)
 
-# media profiles and capabilities spec
-$(call inherit-product, device/htc/holiday/media_a1026.mk)
-
-## htc audio settings
-$(call inherit-product, device/htc/holiday/media_htcaudio.mk)
-
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
