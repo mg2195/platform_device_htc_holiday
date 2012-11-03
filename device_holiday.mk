@@ -132,9 +132,6 @@ PRODUCT_PACKAGES += \
    e2fsck \
    setup_fs
 
-# Build Filemanager for Holiday
-PRODUCT_PACKAGES += \
-   FileManager
 
 # Permissions
 PRODUCT_COPY_FILES += \
